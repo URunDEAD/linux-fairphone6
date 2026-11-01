@@ -21,6 +21,10 @@ The GitLab project is private initially, with content curated for potential publ
 
 Read [reuse and dependencies](docs/REUSE.md), [status](docs/STATUS.md), [licensing](docs/LICENSING.md) and [extraction scope](docs/EXTRACTION.md) before consuming components.
 
+## NixOS integration
+
+Desktop-neutral NixOS/Mobile NixOS packaging, device modules and reference configurations live in the sibling [nixos repository](https://gitlab.com/urundead-labs/linux-handsets/nixos). That repository pins this hardware source; it does not select a desktop or app suite. Hardware patches remain here. Existing Nix recipes here remain reference/provenance material while maintained OS-facing packaging and activation belong there.
+
 ## Multi-phone organization
 
 `urundead-labs/linux-handsets` holds one repository per phone. This project is `fairphone6`. Keep compatible board patches, configs and userspace support together. When another phone actually shares code, extract that component to an appropriately named shared repository and pin it from each phone project; do not duplicate moving copies or pre-create empty repositories.
