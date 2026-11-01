@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-01",
+  "counts": {
+    "source_files": 163,
+    "byte_identical": 158,
+    "nix_parse": 24,
+    "python_parse": 8,
+    "shell_parse": 4,
+    "patch_parse": 72
+  },
+  "source_inventory_total": 2408,
+  "excluded_files": 2245,
+  "historical_commits": 28,
+  "historical_text_blobs": 176,
+  "missing_relative_inputs": [
+    {
+      "file": "kernel/default.nix",
+      "reference": "./linux-63289f4411520a2acb38bd533437446d33fbce74.tar.gz"
+    },
+    {
+      "file": "kernel/feature-push/kernel5/default.nix",
+      "reference": "../../gmu-timeout/linux-63289f4411520a2acb38bd533437446d33fbce74.tar.gz"
+    },
+    {
+      "file": "kernel/feature-push/kernel6/default.nix",
+      "reference": "../../gmu-timeout/linux-63289f4411520a2acb38bd533437446d33fbce74.tar.gz"
+    },
+    {
+      "file": "kernel/feature-push/kernel7-candidates/panel-refresh-compile-check.nix",
+      "reference": "../../gmu-timeout/linux-63289f4411520a2acb38bd533437446d33fbce74.tar.gz"
+    },
+    {
+      "file": "kernel/gmu-timeout/default.nix",
+      "reference": "./linux-63289f4411520a2acb38bd533437446d33fbce74.tar.gz"
+    },
+    {
+      "file": "kernel/qcomtee-cma/default.nix",
+      "reference": "../gmu-timeout/linux-63289f4411520a2acb38bd533437446d33fbce74.tar.gz"
+    },
+    {
+      "file": "kernel/selfie-dphy/default.nix",
+      "reference": "../gmu-timeout/linux-63289f4411520a2acb38bd533437446d33fbce74.tar.gz"
+    }
+  ],
+  "patch_parse_exceptions": [
+    "kernel/upstream/milos-camss-fixes/v1-0000-cover-letter.patch",
+    "kernel/upstream/milos-eswin-gesture-wake/v1-0000-cover-letter.patch",
+    "kernel/upstream/qcom-battmgr-charge-uah/v1-0000-cover-letter.patch",
+    "kernel/upstream/stk3310-no-irq/v1-0000-cover-letter.patch",
+    "kernel/upstream/ufs-qcom-milos/v1-0000-cover-letter.patch",
+    "userspace/modem/ofono/upstream/provisiondb-pkgdatadir/v1-0000-cover-letter.patch"
+  ],
+  "errors": [],
+  "scope": "Static source and extraction validation only; no builds, hardware execution or runtime claims",
+  "privacy_scan": {
+    "source_filtered_history": "0 generic-pattern hits",
+    "organized_tree": "277 findings, all validated Git commit-map rows (including zero IDs for dropped commits); no unreviewed findings",
+    "private_literal_patterns": "not available",
+    "scope": "Source repository generic scanner, not a guarantee of absence of all secrets"
+  }
+}

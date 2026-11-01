@@ -1,0 +1,15 @@
+/result
+/result-*
+**/target/
+**/__pycache__/
+/kernel/source/
+/kernel/config-work/
+*.tar
+*.tar.gz
+*.tar.xz
+*.img
+*.bin
+*.mbn
+*.ko
+*.dtb
+*.env

@@ -1,0 +1,10 @@
+{
+  "url": "https://github.com/URunDEAD/fairphone6-nixos",
+  "revision": "74aa719abaa7e0bacb36038627bf548d98e7523d",
+  "date": "2026-11-01",
+  "selected_files": 163,
+  "history": "Exact allowlisted source paths filtered from main; subsequent organization commit moves files and updates relative Nix references. No source tags/other refs published. Required baseline kernel.config copied byte-identically at the pinned revision in the organization commit.",
+  "source_history_url": "https://github.com/URunDEAD/fairphone6-nixos/commits/main/",
+  "filter_tool": "git-filter-repo",
+  "excluded_scope": "Desktop/app code, OS/session/service activation, complete images, vendor binary assets, private/local operational material"
+}

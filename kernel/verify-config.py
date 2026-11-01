@@ -8,7 +8,7 @@ def parse(path):
 
 here = Path(__file__).resolve().parent
 actual = parse(sys.argv[1])
-base = parse(here.parent / 'nixos-fp6/assets/kernel.config')
+base = parse(here / 'base.config')
 features = parse(here / 'features.config')
 # The original Alpine kernel used Clang 23.1.3. Pinned nixpkgs uses 21.1.8;
 # these capability probes reflect the actual compiler and cannot be forced.

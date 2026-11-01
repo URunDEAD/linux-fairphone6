@@ -1,0 +1,1306 @@
+[
+  {
+    "source_path": "kernel-build/config-diff.txt",
+    "path": "kernel/config-diff.txt",
+    "source_sha256": "a2391c401d894b298ac2c203b2c33ce1de43a2bfb0e0f7ef9fbf2bce367c9157",
+    "sha256": "a2391c401d894b298ac2c203b2c33ce1de43a2bfb0e0f7ef9fbf2bce367c9157",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/config.final",
+    "path": "kernel/config.final",
+    "source_sha256": "62c932f0050941f83ba7a1997000f32c459cd597df090f0c8765369099e801c7",
+    "sha256": "62c932f0050941f83ba7a1997000f32c459cd597df090f0c8765369099e801c7",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/default.nix",
+    "path": "kernel/default.nix",
+    "source_sha256": "57778d6ca5a215e2110d055cdf2ecee48f086aade7d02b41e98ee20e775f1c4a",
+    "sha256": "57778d6ca5a215e2110d055cdf2ecee48f086aade7d02b41e98ee20e775f1c4a",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/camera/0001-fp6-s5kkd1-dt-front-rotation-270.patch",
+    "path": "kernel/feature-push/camera/0001-fp6-s5kkd1-dt-front-rotation-270.patch",
+    "source_sha256": "5ec19b36189e4a74db18c56546cb58ec7e7a04ca30bf8f25d68165620f7e2ca3",
+    "sha256": "5ec19b36189e4a74db18c56546cb58ec7e7a04ca30bf8f25d68165620f7e2ca3",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel5/config.final",
+    "path": "kernel/feature-push/kernel5/config.final",
+    "source_sha256": "d7474fc5829f3f1eb8e51981b0e3d66f4d9ac1b8be0fa34d395969831aebece7",
+    "sha256": "d7474fc5829f3f1eb8e51981b0e3d66f4d9ac1b8be0fa34d395969831aebece7",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel5/default.nix",
+    "path": "kernel/feature-push/kernel5/default.nix",
+    "source_sha256": "1d65bab60dee2c09ebba3e1f2293b21bc4fc6593272b242ad4fe26b266503176",
+    "sha256": "1d65bab60dee2c09ebba3e1f2293b21bc4fc6593272b242ad4fe26b266503176",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel6/config.final",
+    "path": "kernel/feature-push/kernel6/config.final",
+    "source_sha256": "a5374aa4fc7d7e09cf1f9a922b040b2ceef83fe9e228bd8f3f8f96d8509e9c98",
+    "sha256": "a5374aa4fc7d7e09cf1f9a922b040b2ceef83fe9e228bd8f3f8f96d8509e9c98",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel6/default.nix",
+    "path": "kernel/feature-push/kernel6/default.nix",
+    "source_sha256": "9335cf236fd9b8a98699b9f70c589f575860ba3e3f58a4b2d57a207095ba3d99",
+    "sha256": "9335cf236fd9b8a98699b9f70c589f575860ba3e3f58a4b2d57a207095ba3d99",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/0001-input-eswin-eph861x-wait-for-reset-report-in-probe.patch",
+    "path": "kernel/feature-push/kernel7-candidates/0001-input-eswin-eph861x-wait-for-reset-report-in-probe.patch",
+    "source_sha256": "93a22a96bfe05011986fc184f7123b3aeec401807b8b6ecaf328c20f78745b7c",
+    "sha256": "93a22a96bfe05011986fc184f7123b3aeec401807b8b6ecaf328c20f78745b7c",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/0002-power-supply-qcom_battmgr-charge-control-errors-and-disable.patch",
+    "path": "kernel/feature-push/kernel7-candidates/0002-power-supply-qcom_battmgr-charge-control-errors-and-disable.patch",
+    "source_sha256": "f779296615365c408c99676e7c639883e4f30f76f313816ef00492a5bd89a3d0",
+    "sha256": "f779296615365c408c99676e7c639883e4f30f76f313816ef00492a5bd89a3d0",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/0003-input-eswin-eph861x-no-stale-chg-reads-report-gesture-errors.patch",
+    "path": "kernel/feature-push/kernel7-candidates/0003-input-eswin-eph861x-no-stale-chg-reads-report-gesture-errors.patch",
+    "source_sha256": "52a9be99531231fc98d7694c56bb66f918268b61d0bf3870c611b925b6662c5d",
+    "sha256": "52a9be99531231fc98d7694c56bb66f918268b61d0bf3870c611b925b6662c5d",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/0004-drm-msm-a8xx-invalidate-cche-on-pagetable-switch.patch",
+    "path": "kernel/feature-push/kernel7-candidates/0004-drm-msm-a8xx-invalidate-cche-on-pagetable-switch.patch",
+    "source_sha256": "a73ffe2db561f0500e039d199558a25c4a73c3b4bd9983cc82aaf9450f84fe08",
+    "sha256": "a73ffe2db561f0500e039d199558a25c4a73c3b4bd9983cc82aaf9450f84fe08",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/0005-ASoC-qcom-q6apm-dai-support-hostless-front-ends.patch",
+    "path": "kernel/feature-push/kernel7-candidates/0005-ASoC-qcom-q6apm-dai-support-hostless-front-ends.patch",
+    "source_sha256": "c5f9b0676ef9c895759664cb354c2af6ea321e7a8b4ec2de04919bc41db34771",
+    "sha256": "c5f9b0676ef9c895759664cb354c2af6ea321e7a8b4ec2de04919bc41db34771",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/0006-ASoC-qcom-audioreach-send-topology-module-config-for-any-module.patch",
+    "path": "kernel/feature-push/kernel7-candidates/0006-ASoC-qcom-audioreach-send-topology-module-config-for-any-module.patch",
+    "source_sha256": "cb8817a8b3db1f93962d3f7972a6a9d748f30e957abce6d0aaf5aa39c6937cdc",
+    "sha256": "cb8817a8b3db1f93962d3f7972a6a9d748f30e957abce6d0aaf5aa39c6937cdc",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/0007-net-qrtr-forward-data-packets-between-endpoints.patch",
+    "path": "kernel/feature-push/kernel7-candidates/0007-net-qrtr-forward-data-packets-between-endpoints.patch",
+    "source_sha256": "86cfab22fe52e6849fa4a15afb1e1532dc899d3fa225217256ac1a290750ba0c",
+    "sha256": "86cfab22fe52e6849fa4a15afb1e1532dc899d3fa225217256ac1a290750ba0c",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/0008-ASoC-qcom-audioreach-topology-graph-open-extra-params.patch",
+    "path": "kernel/feature-push/kernel7-candidates/0008-ASoC-qcom-audioreach-topology-graph-open-extra-params.patch",
+    "source_sha256": "cbe8202e36791240cd7bb578d24ec5ca6c9c32f3accaa7dc02cc6aba697486b4",
+    "sha256": "cbe8202e36791240cd7bb578d24ec5ca6c9c32f3accaa7dc02cc6aba697486b4",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/0009-drm-panel-novatek-nt37705-add-90-60-and-30-hz-modes.patch",
+    "path": "kernel/feature-push/kernel7-candidates/0009-drm-panel-novatek-nt37705-add-90-60-and-30-hz-modes.patch",
+    "source_sha256": "41a55468387b21ee46d2878c3a42af1fca9bdd64c4719a7bdbbaa1585aa2e21a",
+    "sha256": "41a55468387b21ee46d2878c3a42af1fca9bdd64c4719a7bdbbaa1585aa2e21a",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/0010-drm-panel-novatek-nt37705-runtime-panel-rate-without-modeset.patch",
+    "path": "kernel/feature-push/kernel7-candidates/0010-drm-panel-novatek-nt37705-runtime-panel-rate-without-modeset.patch",
+    "source_sha256": "adef97f583ad45c31b8ac296d4aa86bf65554a523e2e978ef05dd399bbf2d0b2",
+    "sha256": "adef97f583ad45c31b8ac296d4aa86bf65554a523e2e978ef05dd399bbf2d0b2",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/NOTE.txt",
+    "path": "kernel/feature-push/kernel7-candidates/NOTE.txt",
+    "source_sha256": "c78f408b2e30c95276851ee7d07b6b98ca533cd0b1d94499d45fdb7ef929bf09",
+    "sha256": "c78f408b2e30c95276851ee7d07b6b98ca533cd0b1d94499d45fdb7ef929bf09",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/battmgr-compile-check.nix",
+    "path": "kernel/feature-push/kernel7-candidates/battmgr-compile-check.nix",
+    "source_sha256": "e8a3b3b08fa6b4301325e7a0770b73267d4a2928d8f94336d7ceeec882f4baae",
+    "sha256": "e8a3b3b08fa6b4301325e7a0770b73267d4a2928d8f94336d7ceeec882f4baae",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/compile-check.nix",
+    "path": "kernel/feature-push/kernel7-candidates/compile-check.nix",
+    "source_sha256": "3b6663d918c05c7ad3a8657fce9d22eaad44bacfe8d27cbf1bcf153deb65b374",
+    "sha256": "3b6663d918c05c7ad3a8657fce9d22eaad44bacfe8d27cbf1bcf153deb65b374",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/cs-call-audio-compile-check.nix",
+    "path": "kernel/feature-push/kernel7-candidates/cs-call-audio-compile-check.nix",
+    "source_sha256": "6a7d1e7ea2dcc478f617a2cd12f6c17e9c87130ac2496ab4d1be2c808114d3d6",
+    "sha256": "6a7d1e7ea2dcc478f617a2cd12f6c17e9c87130ac2496ab4d1be2c808114d3d6",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/cs-call-audio-kernel/default.nix",
+    "path": "kernel/feature-push/kernel7-candidates/cs-call-audio-kernel/default.nix",
+    "source_sha256": "1647ebdd7100d2a00c54f46b5653507fc583d9413b8baea7e9e1d08b2efbf85f",
+    "sha256": "1647ebdd7100d2a00c54f46b5653507fc583d9413b8baea7e9e1d08b2efbf85f",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/eswin-lp-compile-check.nix",
+    "path": "kernel/feature-push/kernel7-candidates/eswin-lp-compile-check.nix",
+    "source_sha256": "4be14858c5faa71df77abfc64960d86ae15edcaceac16875f7fb18d4cc1e091f",
+    "sha256": "4be14858c5faa71df77abfc64960d86ae15edcaceac16875f7fb18d4cc1e091f",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/kernel7-candidates/panel-refresh-compile-check.nix",
+    "path": "kernel/feature-push/kernel7-candidates/panel-refresh-compile-check.nix",
+    "source_sha256": "45dc30aa5144136cee7118301cc72cd99a768301153a0dc8c8fcd5501d2a7a3a",
+    "sha256": "45dc30aa5144136cee7118301cc72cd99a768301153a0dc8c8fcd5501d2a7a3a",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/misc/0001-power-supply-qcom_battmgr-report-charge-in-uAh-on-SM8350-family.patch",
+    "path": "kernel/feature-push/misc/0001-power-supply-qcom_battmgr-report-charge-in-uAh-on-SM8350-family.patch",
+    "source_sha256": "ba79a78546d10f62ec21886c33efc1f82a1279be0666ef8fb13ca55d77272be4",
+    "sha256": "ba79a78546d10f62ec21886c33efc1f82a1279be0666ef8fb13ca55d77272be4",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/misc/0002-EXPERIMENTAL-arm64-dts-milos-fp6-rtc-allow-set-time.patch",
+    "path": "kernel/feature-push/misc/0002-EXPERIMENTAL-arm64-dts-milos-fp6-rtc-allow-set-time.patch",
+    "source_sha256": "3da20c9bbd91c7b8c7348c9d2eeb4997f376b00dab299992dc3d67caa2e8bdfc",
+    "sha256": "3da20c9bbd91c7b8c7348c9d2eeb4997f376b00dab299992dc3d67caa2e8bdfc",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/network/0001-ath11k-wcn6750-experimental-p2p-modes.patch",
+    "path": "kernel/feature-push/network/0001-ath11k-wcn6750-experimental-p2p-modes.patch",
+    "source_sha256": "caa3da6fb7dba3963d211df1b691d8bab08d26610b3242ffdbd2d24a39d7f6a5",
+    "sha256": "caa3da6fb7dba3963d211df1b691d8bab08d26610b3242ffdbd2d24a39d7f6a5",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/sensors/0001-iio-light-stk3310-noirq-polling-event-free.patch",
+    "path": "kernel/feature-push/sensors/0001-iio-light-stk3310-noirq-polling-event-free.patch",
+    "source_sha256": "73dbb7c369298844ee8db4752fa32ee4274f44e40fe4c3157b448f7fd6431c2d",
+    "sha256": "73dbb7c369298844ee8db4752fa32ee4274f44e40fe4c3157b448f7fd6431c2d",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/sensors/0002-iio-light-stk3310-retry-transient-bus-errors.patch",
+    "path": "kernel/feature-push/sensors/0002-iio-light-stk3310-retry-transient-bus-errors.patch",
+    "source_sha256": "91fe405c59d8d6b8e0fee9fc6ef38a8882bd86db89dbd451b3b3e95f843a62ff",
+    "sha256": "91fe405c59d8d6b8e0fee9fc6ef38a8882bd86db89dbd451b3b3e95f843a62ff",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/sensors/0003-input-eswin-eph861x-gesture-wake-pm-lp-mode.patch",
+    "path": "kernel/feature-push/sensors/0003-input-eswin-eph861x-gesture-wake-pm-lp-mode.patch",
+    "source_sha256": "e419a5928382c806695bc621ba57fe6e4c93b603f4f3d0a651f1d4fe347c114d",
+    "sha256": "e419a5928382c806695bc621ba57fe6e4c93b603f4f3d0a651f1d4fe347c114d",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/sensors/compile-check.nix",
+    "path": "kernel/feature-push/sensors/compile-check.nix",
+    "source_sha256": "40271379aca36b300d61f2e8d95d8c9af1782d9c3794bcd53095a0d6a11978d8",
+    "sha256": "40271379aca36b300d61f2e8d95d8c9af1782d9c3794bcd53095a0d6a11978d8",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/feature-push/suspend/0001-scsi-ufs-qcom-milos-power-down-link-in-system-suspend.patch",
+    "path": "kernel/feature-push/suspend/0001-scsi-ufs-qcom-milos-power-down-link-in-system-suspend.patch",
+    "source_sha256": "13304bc9a30ab7206a91ae160f90f6c188cb5df0da0f763537ba08c1e9c8be9a",
+    "sha256": "13304bc9a30ab7206a91ae160f90f6c188cb5df0da0f763537ba08c1e9c8be9a",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/features.config",
+    "path": "kernel/features.config",
+    "source_sha256": "129fdf32ccce2dfbf96e5c386d8a8221ba7312983bdde041864de951c700ce58",
+    "sha256": "129fdf32ccce2dfbf96e5c386d8a8221ba7312983bdde041864de951c700ce58",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/gmu-timeout/config.final",
+    "path": "kernel/gmu-timeout/config.final",
+    "source_sha256": "e6b9d565c8c024b21329209dcb7e4611548130504b688c9de89e4884f655fd28",
+    "sha256": "e6b9d565c8c024b21329209dcb7e4611548130504b688c9de89e4884f655fd28",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/gmu-timeout/default.nix",
+    "path": "kernel/gmu-timeout/default.nix",
+    "source_sha256": "406b168c9b1f329ecf2c61c1e5ad829423817facd9878ebfcbb859e58f646730",
+    "sha256": "406b168c9b1f329ecf2c61c1e5ad829423817facd9878ebfcbb859e58f646730",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/gmu-timeout/gmu-fw-init-timeout-100ms.patch",
+    "path": "kernel/gmu-timeout/gmu-fw-init-timeout-100ms.patch",
+    "source_sha256": "bf1e274d1128b8625caa2a38d3479ac2aee7139194c3318919533093f315603b",
+    "sha256": "bf1e274d1128b8625caa2a38d3479ac2aee7139194c3318919533093f315603b",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/prepare-config.sh",
+    "path": "kernel/prepare-config.sh",
+    "source_sha256": "0073c9514143128dd594d26ac7fcb1c4ef11f479837d855cce8843ec924ae2e5",
+    "sha256": "f90b8e161885f365de406082b53375385ba01c6d52f8c64636e46c43a39af126",
+    "change": "relative baseline config reference adjusted",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/qcomtee-cma/config.final",
+    "path": "kernel/qcomtee-cma/config.final",
+    "source_sha256": "add5ab8c5daa49e9cfcae819661e8d8ad79940951dc1a5b9406896f0703024f3",
+    "sha256": "add5ab8c5daa49e9cfcae819661e8d8ad79940951dc1a5b9406896f0703024f3",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/qcomtee-cma/default.nix",
+    "path": "kernel/qcomtee-cma/default.nix",
+    "source_sha256": "e15786323709405cb0baafad740ae80aaf08dbea2b307196331522ad29909eff",
+    "sha256": "e15786323709405cb0baafad740ae80aaf08dbea2b307196331522ad29909eff",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/qcomtee-cma/qcomtee-large-shm-cma.patch",
+    "path": "kernel/qcomtee-cma/qcomtee-large-shm-cma.patch",
+    "source_sha256": "2fd269af70ff3d1bd025582c7ef893ff94ed12d104c97e08ff54b5fff6192bca",
+    "sha256": "2fd269af70ff3d1bd025582c7ef893ff94ed12d104c97e08ff54b5fff6192bca",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/selfie-dphy/config.final",
+    "path": "kernel/selfie-dphy/config.final",
+    "source_sha256": "bf936251c7fdd85fc94ab30992cdec13eb29090af286058f7299483d05b6d32c",
+    "sha256": "bf936251c7fdd85fc94ab30992cdec13eb29090af286058f7299483d05b6d32c",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/selfie-dphy/default.nix",
+    "path": "kernel/selfie-dphy/default.nix",
+    "source_sha256": "8a5efe3d7742b971b40c6f7bebcc97cd1f7db37b82edcca3168000a7932c652d",
+    "sha256": "8a5efe3d7742b971b40c6f7bebcc97cd1f7db37b82edcca3168000a7932c652d",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/selfie-dphy/milos-dphy-no-cphy-rate-table.patch",
+    "path": "kernel/selfie-dphy/milos-dphy-no-cphy-rate-table.patch",
+    "source_sha256": "03dfd28758f2a06c39bd361df308d4c3be483d66fea2a6d61b07da1ab1c565ec",
+    "sha256": "03dfd28758f2a06c39bd361df308d4c3be483d66fea2a6d61b07da1ab1c565ec",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/shell.nix",
+    "path": "kernel/shell.nix",
+    "source_sha256": "0a8da8d7728ca7e59f2da3adfd84f70bebc68b0d675e0671dbeffcb4ea98624e",
+    "sha256": "0a8da8d7728ca7e59f2da3adfd84f70bebc68b0d675e0671dbeffcb4ea98624e",
+    "change": "byte-identical",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "kernel-build/verify-config.py",
+    "path": "kernel/verify-config.py",
+    "source_sha256": "b0b86d26469ded81ec5801148dab965fbb395325fe9121947554036a0f25028b",
+    "sha256": "3b8c50ca959f9490fcc0ec8c155420519e6b0886a561d8ebc366e643c5fdb8a8",
+    "change": "relative baseline config reference adjusted",
+    "reason": "Linux kernel patches, configs and compile recipes"
+  },
+  {
+    "source_path": "upstream-patches/linux/README.md",
+    "path": "kernel/upstream/README.md",
+    "source_sha256": "f31f746e2fadab7e8ed678651bd4cb9a661d9aff52941e605d798ed077862a83",
+    "sha256": "f31f746e2fadab7e8ed678651bd4cb9a661d9aff52941e605d798ed077862a83",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/milos-camss-fixes/to-cc.txt",
+    "path": "kernel/upstream/milos-camss-fixes/to-cc.txt",
+    "source_sha256": "66559530c4cc2c58392292ceb29df0a82ab515452c581a2949e41d4256c42b47",
+    "sha256": "66559530c4cc2c58392292ceb29df0a82ab515452c581a2949e41d4256c42b47",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/milos-camss-fixes/v1-0000-cover-letter.patch",
+    "path": "kernel/upstream/milos-camss-fixes/v1-0000-cover-letter.patch",
+    "source_sha256": "1f3790f4c6d600e843a2b42b150228092600b0653d3039c8e9d1f6b93f665282",
+    "sha256": "1f3790f4c6d600e843a2b42b150228092600b0653d3039c8e9d1f6b93f665282",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/milos-camss-fixes/v1-0001-media-qcom-camss-csiphy-3ph-Drop-C-PHY-rate-setti.patch",
+    "path": "kernel/upstream/milos-camss-fixes/v1-0001-media-qcom-camss-csiphy-3ph-Drop-C-PHY-rate-setti.patch",
+    "source_sha256": "67059e7ec7fbdc9563449fbaba23bc2e4d9313c41af66765cf7cc5ecb8e24e74",
+    "sha256": "67059e7ec7fbdc9563449fbaba23bc2e4d9313c41af66765cf7cc5ecb8e24e74",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/milos-camss-fixes/v1-0002-media-qcom-camss-csid-340-Use-a-three-bit-PHY-sel.patch",
+    "path": "kernel/upstream/milos-camss-fixes/v1-0002-media-qcom-camss-csid-340-Use-a-three-bit-PHY-sel.patch",
+    "source_sha256": "aec4c94cf361de67515421d6945d2b67de169ae9261fdf0b3b54504b1ea370c4",
+    "sha256": "aec4c94cf361de67515421d6945d2b67de169ae9261fdf0b3b54504b1ea370c4",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/milos-camss-fixes/v1-0003-media-qcom-camss-vfe-Align-Milos-RDI-lines-to-16-.patch",
+    "path": "kernel/upstream/milos-camss-fixes/v1-0003-media-qcom-camss-vfe-Align-Milos-RDI-lines-to-16-.patch",
+    "source_sha256": "fc48d10188df6a48b6380114077504204e6d17c1407429349676d0d779a2a717",
+    "sha256": "fc48d10188df6a48b6380114077504204e6d17c1407429349676d0d779a2a717",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/milos-eswin-gesture-wake/to-cc.txt",
+    "path": "kernel/upstream/milos-eswin-gesture-wake/to-cc.txt",
+    "source_sha256": "66559530c4cc2c58392292ceb29df0a82ab515452c581a2949e41d4256c42b47",
+    "sha256": "66559530c4cc2c58392292ceb29df0a82ab515452c581a2949e41d4256c42b47",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/milos-eswin-gesture-wake/v1-0000-cover-letter.patch",
+    "path": "kernel/upstream/milos-eswin-gesture-wake/v1-0000-cover-letter.patch",
+    "source_sha256": "1ae36f11b825934669d8e72c7dbb2ba56ed5bca2d085b5c3001f004193d20feb",
+    "sha256": "1ae36f11b825934669d8e72c7dbb2ba56ed5bca2d085b5c3001f004193d20feb",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/milos-eswin-gesture-wake/v1-0001-Input-eswin_eph861x-Support-double-tap-wake-throu.patch",
+    "path": "kernel/upstream/milos-eswin-gesture-wake/v1-0001-Input-eswin_eph861x-Support-double-tap-wake-throu.patch",
+    "source_sha256": "daaa2c58cf7f631a7933707acf0d7951ffb14b9da08e17cbca578d85f97fdc02",
+    "sha256": "daaa2c58cf7f631a7933707acf0d7951ffb14b9da08e17cbca578d85f97fdc02",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/qcom-battmgr-charge-uah/to-cc.txt",
+    "path": "kernel/upstream/qcom-battmgr-charge-uah/to-cc.txt",
+    "source_sha256": "a5e046ed6a053a3c4d27442bbf3c1d63dc3d3348cb4ca3f2407f20a02f9c404f",
+    "sha256": "a5e046ed6a053a3c4d27442bbf3c1d63dc3d3348cb4ca3f2407f20a02f9c404f",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/qcom-battmgr-charge-uah/v1-0000-cover-letter.patch",
+    "path": "kernel/upstream/qcom-battmgr-charge-uah/v1-0000-cover-letter.patch",
+    "source_sha256": "a0464fc245793b5d544c383287051ef1c115ee2e5fd2318b6fdd43c7fd53e269",
+    "sha256": "a0464fc245793b5d544c383287051ef1c115ee2e5fd2318b6fdd43c7fd53e269",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/qcom-battmgr-charge-uah/v1-0001-power-supply-qcom_battmgr-Report-charge-in-uAh-on.patch",
+    "path": "kernel/upstream/qcom-battmgr-charge-uah/v1-0001-power-supply-qcom_battmgr-Report-charge-in-uAh-on.patch",
+    "source_sha256": "5fd1656fa6d59afb2d0a77baf4d23a95f206a65b31778b8c45a2ec9c3763290a",
+    "sha256": "5fd1656fa6d59afb2d0a77baf4d23a95f206a65b31778b8c45a2ec9c3763290a",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/stk3310-no-irq/to-cc.txt",
+    "path": "kernel/upstream/stk3310-no-irq/to-cc.txt",
+    "source_sha256": "636e1414e2d79d949baff59f830130555f1d3cc82107cb620451182a4cfebca4",
+    "sha256": "636e1414e2d79d949baff59f830130555f1d3cc82107cb620451182a4cfebca4",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/stk3310-no-irq/v1-0000-cover-letter.patch",
+    "path": "kernel/upstream/stk3310-no-irq/v1-0000-cover-letter.patch",
+    "source_sha256": "aa7b83a92dcf53f869e161eb2484e95603fb3808ba45840b9c41f9551a7387cb",
+    "sha256": "aa7b83a92dcf53f869e161eb2484e95603fb3808ba45840b9c41f9551a7387cb",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/stk3310-no-irq/v1-0001-iio-light-stk3310-Do-not-enable-proximity-interru.patch",
+    "path": "kernel/upstream/stk3310-no-irq/v1-0001-iio-light-stk3310-Do-not-enable-proximity-interru.patch",
+    "source_sha256": "eada90606758e8ce3fa4cfe3a0ae0fe1807d36b92b7a761f538779a7a07ee20a",
+    "sha256": "eada90606758e8ce3fa4cfe3a0ae0fe1807d36b92b7a761f538779a7a07ee20a",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/ufs-qcom-milos/to-cc.txt",
+    "path": "kernel/upstream/ufs-qcom-milos/to-cc.txt",
+    "source_sha256": "0438a654e3ec99434eeb7f571eef36ffecc34a837fda6a138acd27d6904e0ebd",
+    "sha256": "0438a654e3ec99434eeb7f571eef36ffecc34a837fda6a138acd27d6904e0ebd",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/ufs-qcom-milos/v1-0000-cover-letter.patch",
+    "path": "kernel/upstream/ufs-qcom-milos/v1-0000-cover-letter.patch",
+    "source_sha256": "01aa738e06d65619e3ef6cf48a37edba6bac5616de44e46523fbe8c2afe732f5",
+    "sha256": "01aa738e06d65619e3ef6cf48a37edba6bac5616de44e46523fbe8c2afe732f5",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/linux/ufs-qcom-milos/v1-0001-scsi-ufs-qcom-Power-down-the-link-during-system-s.patch",
+    "path": "kernel/upstream/ufs-qcom-milos/v1-0001-scsi-ufs-qcom-Power-down-the-link-during-system-s.patch",
+    "source_sha256": "02383d84a61dec86ed32784340fff25b96c8ceabb8bc96062ca47eab9e41472a",
+    "sha256": "02383d84a61dec86ed32784340fff25b96c8ceabb8bc96062ca47eab9e41472a",
+    "change": "byte-identical",
+    "reason": "Upstream-oriented Linux patch series and original review notes"
+  },
+  {
+    "source_path": "upstream-patches/ofono/provisiondb-pkgdatadir/to-cc.txt",
+    "path": "userspace/modem/ofono/upstream/provisiondb-pkgdatadir/to-cc.txt",
+    "source_sha256": "c6e109f0d1bc5dc8dbf947f9584768d22c80b09b8c33a7de0f69e3dad9c0be01",
+    "sha256": "c6e109f0d1bc5dc8dbf947f9584768d22c80b09b8c33a7de0f69e3dad9c0be01",
+    "change": "byte-identical",
+    "reason": "Modem userspace provisioning compatibility fixes"
+  },
+  {
+    "source_path": "upstream-patches/ofono/provisiondb-pkgdatadir/v1-0000-cover-letter.patch",
+    "path": "userspace/modem/ofono/upstream/provisiondb-pkgdatadir/v1-0000-cover-letter.patch",
+    "source_sha256": "260e2f2538a8e9cdceb8a0041bbe978fffb2ca3f746554dd29bef00fa4b8675f",
+    "sha256": "260e2f2538a8e9cdceb8a0041bbe978fffb2ca3f746554dd29bef00fa4b8675f",
+    "change": "byte-identical",
+    "reason": "Modem userspace provisioning compatibility fixes"
+  },
+  {
+    "source_path": "upstream-patches/ofono/provisiondb-pkgdatadir/v1-0001-build-Pass-pkgdatadir-to-the-sources-as-PKGDATADI.patch",
+    "path": "userspace/modem/ofono/upstream/provisiondb-pkgdatadir/v1-0001-build-Pass-pkgdatadir-to-the-sources-as-PKGDATADI.patch",
+    "source_sha256": "bddc8f578bbbd7ce9df3b9b0a82101561d469883fc05779fc56b6c85ebf7fb2f",
+    "sha256": "bddc8f578bbbd7ce9df3b9b0a82101561d469883fc05779fc56b6c85ebf7fb2f",
+    "change": "byte-identical",
+    "reason": "Modem userspace provisioning compatibility fixes"
+  },
+  {
+    "source_path": "upstream-patches/ofono/provisiondb-pkgdatadir/v1-0002-provisiondb-Look-up-the-default-database-in-PKGDA.patch",
+    "path": "userspace/modem/ofono/upstream/provisiondb-pkgdatadir/v1-0002-provisiondb-Look-up-the-default-database-in-PKGDA.patch",
+    "source_sha256": "21e3b7d338e757722a178aff5ff90ec81c8a093ed4fd9149d07ca5eb8e58f6ab",
+    "sha256": "21e3b7d338e757722a178aff5ff90ec81c8a093ed4fd9149d07ca5eb8e58f6ab",
+    "change": "byte-identical",
+    "reason": "Modem userspace provisioning compatibility fixes"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0001-libcamera-simple-Enable-softISP-for-the-Pinephone.patch",
+    "path": "userspace/camera/libcamera/patches/0001-libcamera-simple-Enable-softISP-for-the-Pinephone.patch",
+    "source_sha256": "118e097e667185144a880d8e7d9444cc8b48174df7e2b85ded625b72c06c3e13",
+    "sha256": "118e097e667185144a880d8e7d9444cc8b48174df7e2b85ded625b72c06c3e13",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0002-libcamera-simple-Skip-hwISP-formats-if-swISP-is-acti.patch",
+    "path": "userspace/camera/libcamera/patches/0002-libcamera-simple-Skip-hwISP-formats-if-swISP-is-acti.patch",
+    "source_sha256": "d3d63a68350085dd3c0a96b6fc3382981ad4b94e266820e823a44b26dfc80dd4",
+    "sha256": "d3d63a68350085dd3c0a96b6fc3382981ad4b94e266820e823a44b26dfc80dd4",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0003-libipa-Add-OV13B10-camera-sensor-helper.patch",
+    "path": "userspace/camera/libcamera/patches/0003-libipa-Add-OV13B10-camera-sensor-helper.patch",
+    "source_sha256": "e3c43bea7de24e833b1bb38a55b4ba3b8a95ab3e99394a2592b88077166f10fb",
+    "sha256": "e3c43bea7de24e833b1bb38a55b4ba3b8a95ab3e99394a2592b88077166f10fb",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0004-libcamera-sensor-Add-OV13B10-sensor-properties.patch",
+    "path": "userspace/camera/libcamera/patches/0004-libcamera-sensor-Add-OV13B10-sensor-properties.patch",
+    "source_sha256": "a7c1b7c72ab59c31fd6142348a9241403a727fd91991019899b4355f1b328994",
+    "sha256": "a7c1b7c72ab59c31fd6142348a9241403a727fd91991019899b4355f1b328994",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0005-libipa-Add-camera-sensor-helper-for-IMX896.patch",
+    "path": "userspace/camera/libcamera/patches/0005-libipa-Add-camera-sensor-helper-for-IMX896.patch",
+    "source_sha256": "147a9ce42062ce546770d468933ab3cda5cdbb2e05f7b4752f3fc62475c756ac",
+    "sha256": "147a9ce42062ce546770d468933ab3cda5cdbb2e05f7b4752f3fc62475c756ac",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0006-libcamera-sensor-Add-IMX896-sensor-properties.patch",
+    "path": "userspace/camera/libcamera/patches/0006-libcamera-sensor-Add-IMX896-sensor-properties.patch",
+    "source_sha256": "188c34bdfc7648655cd091d5f6e9780b6a4b96d7e40b6abb81e4278625bf4050",
+    "sha256": "188c34bdfc7648655cd091d5f6e9780b6a4b96d7e40b6abb81e4278625bf4050",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0007-libcamera-software_isp-Add-focus-control.patch",
+    "path": "userspace/camera/libcamera/patches/0007-libcamera-software_isp-Add-focus-control.patch",
+    "source_sha256": "26de7cb34f34e71220e0a6cfc34e3ee864224fd8e04c616e4f275745d1924993",
+    "sha256": "26de7cb34f34e71220e0a6cfc34e3ee864224fd8e04c616e4f275745d1924993",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0008-libcamera-software_isp-Add-autofocus.patch",
+    "path": "userspace/camera/libcamera/patches/0008-libcamera-software_isp-Add-autofocus.patch",
+    "source_sha256": "781a5c85e16f7174f1742d3e1811afe29af25fc2a9c23296c37343d9d3710bbf",
+    "sha256": "781a5c85e16f7174f1742d3e1811afe29af25fc2a9c23296c37343d9d3710bbf",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0009-AF-detect-focus-loss.patch",
+    "path": "userspace/camera/libcamera/patches/0009-AF-detect-focus-loss.patch",
+    "source_sha256": "09ad88d5bff09a950c73806e21093ee607c12a2107af0b459330f0132802da03",
+    "sha256": "09ad88d5bff09a950c73806e21093ee607c12a2107af0b459330f0132802da03",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0010-af-two-phase-sweep-over-a-brightness-normalised-cent.patch",
+    "path": "userspace/camera/libcamera/patches/0010-af-two-phase-sweep-over-a-brightness-normalised-cent.patch",
+    "source_sha256": "183679bf5c60e4e1a341ae25e2619e62f0ccf9e5e16d3f8120a286f573d87d92",
+    "sha256": "183679bf5c60e4e1a341ae25e2619e62f0ccf9e5e16d3f8120a286f573d87d92",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0011-libcamera-pipeline-simple-Apply-the-lens-position-un.patch",
+    "path": "userspace/camera/libcamera/patches/0011-libcamera-pipeline-simple-Apply-the-lens-position-un.patch",
+    "source_sha256": "cc2d20b84c8e36a6ececaf987ad66b163992b68fc21ea88273410cab0d133fde",
+    "sha256": "cc2d20b84c8e36a6ececaf987ad66b163992b68fc21ea88273410cab0d133fde",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0012-libcamera-software_isp-af-Harden-the-lens-control-ha.patch",
+    "path": "userspace/camera/libcamera/patches/0012-libcamera-software_isp-af-Harden-the-lens-control-ha.patch",
+    "source_sha256": "6cd35983f965867a8476ca6fafaa27f68ff8b6d883e38c722fea47435fdf6ca6",
+    "sha256": "6cd35983f965867a8476ca6fafaa27f68ff8b6d883e38c722fea47435fdf6ca6",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0013-libcamera-software_isp-af-Add-AfMode-and-focus-witho.patch",
+    "path": "userspace/camera/libcamera/patches/0013-libcamera-software_isp-af-Add-AfMode-and-focus-witho.patch",
+    "source_sha256": "f2db2de80138c9e83b11c2101980d353e4de3a581104e2a89c485c59e84ce7c7",
+    "sha256": "f2db2de80138c9e83b11c2101980d353e4de3a581104e2a89c485c59e84ce7c7",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0014-libcamera-software_isp-af-Re-baseline-the-scene-refe.patch",
+    "path": "userspace/camera/libcamera/patches/0014-libcamera-software_isp-af-Re-baseline-the-scene-refe.patch",
+    "source_sha256": "67a72571f749ffad8cfc5a780466fbda773c7085902156876d27a3da6a613e3f",
+    "sha256": "67a72571f749ffad8cfc5a780466fbda773c7085902156876d27a3da6a613e3f",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0015-ipa-simple-awb-Add-optional-white-point-locus-clamp-.patch",
+    "path": "userspace/camera/libcamera/patches/0015-ipa-simple-awb-Add-optional-white-point-locus-clamp-.patch",
+    "source_sha256": "8b783f0a099bb423bf3151383acbb89964deab324c53638140d7bb448f38674d",
+    "sha256": "8b783f0a099bb423bf3151383acbb89964deab324c53638140d7bb448f38674d",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0016-ipa-simple-awb-Gate-the-gray-world-estimate-on-near-.patch",
+    "path": "userspace/camera/libcamera/patches/0016-ipa-simple-awb-Gate-the-gray-world-estimate-on-near-.patch",
+    "source_sha256": "124e6c3f0ddc656a7d857f9b78d1954ab75528eb0172292a037037e6b9efcd4e",
+    "sha256": "124e6c3f0ddc656a7d857f9b78d1954ab75528eb0172292a037037e6b9efcd4e",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0017-ipa-simple-agc-Mean-luma-target-with-highlight-limit.patch",
+    "path": "userspace/camera/libcamera/patches/0017-ipa-simple-agc-Mean-luma-target-with-highlight-limit.patch",
+    "source_sha256": "c1de30e34c5d7140d1ac8c3cb61f4b6d12b045deb141ae0588b63bf5361d276e",
+    "sha256": "c1de30e34c5d7140d1ac8c3cb61f4b6d12b045deb141ae0588b63bf5361d276e",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0018-libcamera-software_isp-debayer_cpu-Unbiased-shadows-.patch",
+    "path": "userspace/camera/libcamera/patches/0018-libcamera-software_isp-debayer_cpu-Unbiased-shadows-.patch",
+    "source_sha256": "09b0a9ca5b7f39618c75dab0f4b3d5cb59301d632abe173e2308dc9b19b2ff64",
+    "sha256": "09b0a9ca5b7f39618c75dab0f4b3d5cb59301d632abe173e2308dc9b19b2ff64",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0019-libcamera-software_isp-Make-the-AF-sharpness-window-.patch",
+    "path": "userspace/camera/libcamera/patches/0019-libcamera-software_isp-Make-the-AF-sharpness-window-.patch",
+    "source_sha256": "bfe40996fa2c1049d32bfcbb31505e0307d0b9a9825d0689c4718abd1406f7e6",
+    "sha256": "bfe40996fa2c1049d32bfcbb31505e0307d0b9a9825d0689c4718abd1406f7e6",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0020-ipa-simple-af-Tap-to-focus-AF-windows-steadier-conti.patch",
+    "path": "userspace/camera/libcamera/patches/0020-ipa-simple-af-Tap-to-focus-AF-windows-steadier-conti.patch",
+    "source_sha256": "7549c36eda4b22df3e3ead8ae3e03c534172af6adcb9cbeefea8eec64aacdf80",
+    "sha256": "7549c36eda4b22df3e3ead8ae3e03c534172af6adcb9cbeefea8eec64aacdf80",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0021-ipa-simple-agc-Exposure-compensation-factor-and-expo.patch",
+    "path": "userspace/camera/libcamera/patches/0021-ipa-simple-agc-Exposure-compensation-factor-and-expo.patch",
+    "source_sha256": "1062f62789255ec5392bf3cec4ad25dc42f201c6aceafe2d320916a2acccd252",
+    "sha256": "1062f62789255ec5392bf3cec4ad25dc42f201c6aceafe2d320916a2acccd252",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0090-fp6-manual-controls.patch",
+    "path": "userspace/camera/libcamera/patches/0090-fp6-manual-controls.patch",
+    "source_sha256": "10b5e88726948fa3561761214c3f808dc6fc72416369fae898c7335fabebe162",
+    "sha256": "10b5e88726948fa3561761214c3f808dc6fc72416369fae898c7335fabebe162",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/0091-gstreamer-Map-packed-CSI-2-Bayer-formats.patch",
+    "path": "userspace/camera/libcamera/patches/0091-gstreamer-Map-packed-CSI-2-Bayer-formats.patch",
+    "source_sha256": "e0ae16243bce52c889a92f622ddc406a15940c6b5f5057cf8cae1bffd4b1f8e8",
+    "sha256": "e0ae16243bce52c889a92f622ddc406a15940c6b5f5057cf8cae1bffd4b1f8e8",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/APKBUILD",
+    "path": "userspace/camera/libcamera/patches/APKBUILD",
+    "source_sha256": "afc39ba09d2385f43b1b853b1e80943df21af917f73c66e08217cdcabac6154f",
+    "sha256": "afc39ba09d2385f43b1b853b1e80943df21af917f73c66e08217cdcabac6154f",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/README.txt",
+    "path": "userspace/camera/libcamera/patches/README.txt",
+    "source_sha256": "6a7d5f315d041c74c6e851ff3cc00a004767bc4e46d7410041a947a57b2e6edc",
+    "sha256": "6a7d5f315d041c74c6e851ff3cc00a004767bc4e46d7410041a947a57b2e6edc",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos/imx896.yaml",
+    "path": "userspace/camera/libcamera/patches/imx896.yaml",
+    "source_sha256": "7362d1d226095af2ac49be4b8d8d3554f90038a2c4ac585941774f4cc0ae4184",
+    "sha256": "7362d1d226095af2ac49be4b8d8d3554f90038a2c4ac585941774f4cc0ae4184",
+    "change": "byte-identical",
+    "reason": "libcamera sensor support, software ISP and tuning provenance"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6/Makefile",
+    "path": "drivers/camera/s5kkd1/Makefile",
+    "source_sha256": "8ba4bf51f1077d5859786ca552673b613e6447ca529af55d2835dc0488c46a3d",
+    "sha256": "8ba4bf51f1077d5859786ca552673b613e6447ca529af55d2835dc0488c46a3d",
+    "change": "byte-identical",
+    "reason": "Experimental front-camera driver, DT include and firmware extraction provenance"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6/dtb-equivalence.json",
+    "path": "drivers/camera/s5kkd1/dtb-equivalence.json",
+    "source_sha256": "21905fb0bd8831037d0f72114aeb62e07af7fd07c5140710b07e8f2a4b1b17c0",
+    "sha256": "21905fb0bd8831037d0f72114aeb62e07af7fd07c5140710b07e8f2a4b1b17c0",
+    "change": "byte-identical",
+    "reason": "Experimental front-camera driver, DT include and firmware extraction provenance"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6/extract-firmware.py",
+    "path": "drivers/camera/s5kkd1/extract-firmware.py",
+    "source_sha256": "f5b4311b93e8c781a4d91975c8c769d91e83a5935325bb7eb17e968d46b9f669",
+    "sha256": "f5b4311b93e8c781a4d91975c8c769d91e83a5935325bb7eb17e968d46b9f669",
+    "change": "byte-identical",
+    "reason": "Experimental front-camera driver, DT include and firmware extraction provenance"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6/firmware-provenance.json",
+    "path": "drivers/camera/s5kkd1/firmware-provenance.json",
+    "source_sha256": "53c00f6f9a8e63ad8cc75a9c95f63bb0ef89154cf41763e9cf14bdc54d24b976",
+    "sha256": "53c00f6f9a8e63ad8cc75a9c95f63bb0ef89154cf41763e9cf14bdc54d24b976",
+    "change": "byte-identical",
+    "reason": "Experimental front-camera driver, DT include and firmware extraction provenance"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6/fp6-s5kkd1-firmware.h",
+    "path": "drivers/camera/s5kkd1/fp6-s5kkd1-firmware.h",
+    "source_sha256": "0e2e634f89c891bc6952aba839ea8c699cd312310ba9f8d58ab2d3372343e0b0",
+    "sha256": "0e2e634f89c891bc6952aba839ea8c699cd312310ba9f8d58ab2d3372343e0b0",
+    "change": "byte-identical",
+    "reason": "Experimental front-camera driver, DT include and firmware extraction provenance"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6/fp6-s5kkd1.c",
+    "path": "drivers/camera/s5kkd1/fp6-s5kkd1.c",
+    "source_sha256": "8a9c8f213b73f6de5212e74a4a1efee182b808069cbdfb1e0e167300ff504d6b",
+    "sha256": "8a9c8f213b73f6de5212e74a4a1efee182b808069cbdfb1e0e167300ff504d6b",
+    "change": "byte-identical",
+    "reason": "Experimental front-camera driver, DT include and firmware extraction provenance"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6/fp6-s5kkd1.dtsi",
+    "path": "drivers/camera/s5kkd1/fp6-s5kkd1.dtsi",
+    "source_sha256": "f45720e9f79228403e09b16128d7e35e6432a71dc95757ce84aa17a4a29a30da",
+    "sha256": "f45720e9f79228403e09b16128d7e35e6432a71dc95757ce84aa17a4a29a30da",
+    "change": "byte-identical",
+    "reason": "Experimental front-camera driver, DT include and firmware extraction provenance"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6/vendor-source-pins.json",
+    "path": "drivers/camera/s5kkd1/vendor-source-pins.json",
+    "source_sha256": "c4783e92e1a46e4223c9634e9ff7c9f5b53571b985cc607704ee2a325e7650dc",
+    "sha256": "c4783e92e1a46e4223c9634e9ff7c9f5b53571b985cc607704ee2a325e7650dc",
+    "change": "byte-identical",
+    "reason": "Experimental front-camera driver, DT include and firmware extraction provenance"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6-diagnostic/Makefile",
+    "path": "drivers/camera/s5kkd1-diagnostic/Makefile",
+    "source_sha256": "8ba4bf51f1077d5859786ca552673b613e6447ca529af55d2835dc0488c46a3d",
+    "sha256": "8ba4bf51f1077d5859786ca552673b613e6447ca529af55d2835dc0488c46a3d",
+    "change": "byte-identical",
+    "reason": "Diagnostic variant of experimental front-camera driver"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6-diagnostic/fp6-s5kkd1-firmware.h",
+    "path": "drivers/camera/s5kkd1-diagnostic/fp6-s5kkd1-firmware.h",
+    "source_sha256": "0e2e634f89c891bc6952aba839ea8c699cd312310ba9f8d58ab2d3372343e0b0",
+    "sha256": "0e2e634f89c891bc6952aba839ea8c699cd312310ba9f8d58ab2d3372343e0b0",
+    "change": "byte-identical",
+    "reason": "Diagnostic variant of experimental front-camera driver"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6-diagnostic/fp6-s5kkd1.c",
+    "path": "drivers/camera/s5kkd1-diagnostic/fp6-s5kkd1.c",
+    "source_sha256": "65b05a05bd284f65d9aef25e5e68af259ddf2b0d462920e66fb2c05fd99282e9",
+    "sha256": "65b05a05bd284f65d9aef25e5e68af259ddf2b0d462920e66fb2c05fd99282e9",
+    "change": "byte-identical",
+    "reason": "Diagnostic variant of experimental front-camera driver"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-camss-kernel4/csid340-phy-select-three-bits.patch",
+    "path": "kernel/camss/csid340-phy-select-three-bits.patch",
+    "source_sha256": "a79f3660754a15fbf22c4aa974516940a726433d1aa01405227c8a3b26f40319",
+    "sha256": "a79f3660754a15fbf22c4aa974516940a726433d1aa01405227c8a3b26f40319",
+    "change": "byte-identical",
+    "reason": "CAMSS driver fixes"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-camss-kernel4/milos-dphy-no-cphy-rate-table.patch",
+    "path": "kernel/camss/milos-dphy-no-cphy-rate-table.patch",
+    "source_sha256": "03dfd28758f2a06c39bd361df308d4c3be483d66fea2a6d61b07da1ab1c565ec",
+    "sha256": "03dfd28758f2a06c39bd361df308d4c3be483d66fea2a6d61b07da1ab1c565ec",
+    "change": "byte-identical",
+    "reason": "CAMSS driver fixes"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-camss-kernel4/milos-rdi-align-16.patch",
+    "path": "kernel/camss/milos-rdi-align-16.patch",
+    "source_sha256": "8eeb09d87314c4d71ef5f35a1f442723b2c1417acbfc9e9837e79b03daa29a1f",
+    "sha256": "8eeb09d87314c4d71ef5f35a1f442723b2c1417acbfc9e9837e79b03daa29a1f",
+    "change": "byte-identical",
+    "reason": "CAMSS driver fixes"
+  },
+  {
+    "source_path": "nixos-fp6/audio-fp6-ucm/Fairphone/fp6/HiFi.conf",
+    "path": "userspace/audio/ucm-legacy/Fairphone/fp6/HiFi.conf",
+    "source_sha256": "06bd57b2139a1ab124fc26945221e1f8fd695c048f93105c3d1dc53951348d51",
+    "sha256": "06bd57b2139a1ab124fc26945221e1f8fd695c048f93105c3d1dc53951348d51",
+    "change": "byte-identical",
+    "reason": "Original FP6 ALSA UCM profiles"
+  },
+  {
+    "source_path": "nixos-fp6/audio-fp6-ucm/conf.d/milos/Fairphone (Gen. 6).conf",
+    "path": "userspace/audio/ucm-legacy/conf.d/milos/Fairphone (Gen. 6).conf",
+    "source_sha256": "8b73ad5c9f5ccdf489fff3a7673c49fc5003372f71f29cfa570df79d7df539e1",
+    "sha256": "8b73ad5c9f5ccdf489fff3a7673c49fc5003372f71f29cfa570df79d7df539e1",
+    "change": "byte-identical",
+    "reason": "Original FP6 ALSA UCM profiles"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/audio/ucm/Fairphone/fp6/HiFi.conf",
+    "path": "userspace/audio/ucm/Fairphone/fp6/HiFi.conf",
+    "source_sha256": "eee57748e7f88671db070ef59d7d5bb55f955f13911d61da57bf605a48bfb3a7",
+    "sha256": "eee57748e7f88671db070ef59d7d5bb55f955f13911d61da57bf605a48bfb3a7",
+    "change": "byte-identical",
+    "reason": "Updated FP6 ALSA UCM profiles"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/audio/ucm/Fairphone/fp6/VoiceCall.conf",
+    "path": "userspace/audio/ucm/Fairphone/fp6/VoiceCall.conf",
+    "source_sha256": "4ab4cbb42c48025c97b7965a13fb738de50eb1750055a18f043561f543be1bc8",
+    "sha256": "4ab4cbb42c48025c97b7965a13fb738de50eb1750055a18f043561f543be1bc8",
+    "change": "byte-identical",
+    "reason": "Updated FP6 ALSA UCM profiles"
+  },
+  {
+    "source_path": "LICENSE",
+    "path": "LICENSE",
+    "source_sha256": "afd2c56933ef40af1d037d510247b902a33972a73020a84071eb728b39518095",
+    "sha256": "afd2c56933ef40af1d037d510247b902a33972a73020a84071eb728b39518095",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pmos-libcamera.nix",
+    "path": "userspace/camera/libcamera/default.nix",
+    "source_sha256": "f180005d25e510b7655bc83e0851d811c289ba41fb5f31cd7910624b2cfcbbb4",
+    "sha256": "27aefac6c347ae2ff95b91b9a4e06a5aad6db4976dd4a3ee6cd79b48adc7fefa",
+    "change": "relative Nix references adjusted",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-sensor-test.patch",
+    "path": "userspace/camera/libcamera/sensor-test.patch",
+    "source_sha256": "94af77fa127d613b081e6404ee19cb758996d1be34d147414c1e56984deb9088",
+    "sha256": "94af77fa127d613b081e6404ee19cb758996d1be34d147414c1e56984deb9088",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6-libcamera-helper.patch",
+    "path": "userspace/camera/libcamera/selfie-helper.patch",
+    "source_sha256": "9504f98928cd16a880cf8b91b3d6039fdd364ac05271d7d76dc1e192ce97726c",
+    "sha256": "9504f98928cd16a880cf8b91b3d6039fdd364ac05271d7d76dc1e192ce97726c",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6-libcamera.nix",
+    "path": "userspace/camera/libcamera/selfie.nix",
+    "source_sha256": "6caa20be4eab740ca23ff14460c59f31d82ed92376db870e0e50113850ff5e99",
+    "sha256": "cb58bfa50a33ef03cc7daf3d788959b7909f1f61770662c1c6267455db1ca1b7",
+    "change": "relative Nix references adjusted",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/camera-fp6-pipewire-metadata-listener.patch",
+    "path": "compatibility/pipewire/camera-metadata-listener.patch",
+    "source_sha256": "d2c53fcf5bd7d8299908be90473e80c09f7708312c84acef4ad6686c1f7e37fc",
+    "sha256": "d2c53fcf5bd7d8299908be90473e80c09f7708312c84acef4ad6686c1f7e37fc",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/mesa-aarch64-os-features.patch",
+    "path": "compatibility/mesa/aarch64-os-features.patch",
+    "source_sha256": "ccde4da7192cfa3ea407143317d49932081229eb153015a22f6f354782b0c520",
+    "sha256": "ccde4da7192cfa3ea407143317d49932081229eb153015a22f6f354782b0c520",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/mobile-nixos-zstd.patch",
+    "path": "compatibility/mobile-nixos/initrd-zstd.patch",
+    "source_sha256": "5fb27a5a6340c58ab2f087d88be214190da081590010d5e263bc596ea30d565b",
+    "sha256": "5fb27a5a6340c58ab2f087d88be214190da081590010d5e263bc596ea30d565b",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/mobile-nixos-ffs-module.patch",
+    "path": "compatibility/mobile-nixos/ffs-module.patch",
+    "source_sha256": "59bb04a5eec14143ca93bf5477fb045b00239ff5135c1807a32ceafca370305e",
+    "sha256": "59bb04a5eec14143ca93bf5477fb045b00239ff5135c1807a32ceafca370305e",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/audio/ucm-package.nix",
+    "path": "userspace/audio/ucm-package.nix",
+    "source_sha256": "f69c9aed4a28808fc3176b2097a975d4edc46fe5e861f4a78aa247e44f5434e1",
+    "sha256": "f69c9aed4a28808fc3176b2097a975d4edc46fe5e861f4a78aa247e44f5434e1",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/audio/imsd-media-role-phone.patch",
+    "path": "userspace/modem/imsd/media-role-phone.patch",
+    "source_sha256": "ad4649ba9cccf102147a40ad57503bcc91440dee3a9c9bb47d9c38833281bb5a",
+    "sha256": "ad4649ba9cccf102147a40ad57503bcc91440dee3a9c9bb47d9c38833281bb5a",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/lpac-qrtr.nix",
+    "path": "userspace/modem/lpac-qrtr.nix",
+    "source_sha256": "eb1a2fe58e1566f8846febd90c12fbc1b8229df7bbd6b53e27ce102c7f7e4933",
+    "sha256": "eb1a2fe58e1566f8846febd90c12fbc1b8229df7bbd6b53e27ce102c7f7e4933",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/geoclue-no-geoip-without-url.patch",
+    "path": "compatibility/geoclue/no-geoip-without-url.patch",
+    "source_sha256": "5ecf1950f4457d049e37ff663fb5adf41eea5aba64efe0ac4bee63befa9a0f2a",
+    "sha256": "5ecf1950f4457d049e37ff663fb5adf41eea5aba64efe0ac4bee63befa9a0f2a",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/ofono-qrtrqmi-sw-call-volume.patch",
+    "path": "userspace/modem/ofono/qrtrqmi-sw-call-volume.patch",
+    "source_sha256": "dec0cf356e8ce096b15b53fd1cebd7c0d7bb3d5655b94f83be13fb68dddc0963",
+    "sha256": "dec0cf356e8ce096b15b53fd1cebd7c0d7bb3d5655b94f83be13fb68dddc0963",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/fingerprintd-build.py",
+    "path": "userspace/fingerprint/fingerprintd-build.py",
+    "source_sha256": "9ee136a93653e6fcd891ef1821836a8948ab542bdc9f0d641516643fc3e8fcc6",
+    "sha256": "9ee136a93653e6fcd891ef1821836a8948ab542bdc9f0d641516643fc3e8fcc6",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/fingerprintd-package.nix",
+    "path": "userspace/fingerprint/fingerprintd-package.nix",
+    "source_sha256": "bf78cdbe2122492dc066614cba2153e2ed195763d489b9432755ee4b0f74ce2d",
+    "sha256": "bf78cdbe2122492dc066614cba2153e2ed195763d489b9432755ee4b0f74ce2d",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/fingerprintd-transport-package.nix",
+    "path": "userspace/fingerprint/fingerprintd-transport-package.nix",
+    "source_sha256": "984dcb20eae521e993991a2e437b2c4003c15009ee5f0f2bb0c7630360cfe6c4",
+    "sha256": "984dcb20eae521e993991a2e437b2c4003c15009ee5f0f2bb0c7630360cfe6c4",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/fingerprintd-preserved-package.nix",
+    "path": "userspace/fingerprint/fingerprintd-preserved-package.nix",
+    "source_sha256": "9c49fb4da4530b8721dd8168b37b6190d9d7d01d179c2c771732f0e5555971d4",
+    "sha256": "9c49fb4da4530b8721dd8168b37b6190d9d7d01d179c2c771732f0e5555971d4",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/fingerprintd-enrollment-preservation.patch",
+    "path": "userspace/fingerprint/fingerprintd-enrollment-preservation.patch",
+    "source_sha256": "55942ae12aa6b1b77f5365588c43cf6282b4e2d27e3dad9d034cda6721b3907a",
+    "sha256": "55942ae12aa6b1b77f5365588c43cf6282b4e2d27e3dad9d034cda6721b3907a",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/fingerprintd-transport-diagnostics.patch",
+    "path": "userspace/fingerprint/fingerprintd-transport-diagnostics.patch",
+    "source_sha256": "a74b02d091f25a37c7e6c1eaea065e84635145e082ebd6d325b94a4b5bba5b55",
+    "sha256": "a74b02d091f25a37c7e6c1eaea065e84635145e082ebd6d325b94a4b5bba5b55",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/imsd-build.py",
+    "path": "userspace/modem/imsd/imsd-build.py",
+    "source_sha256": "baa4ad1c364253b3dd00454a2bd6d19d0fc59a193abccf19c83a0834ad21af41",
+    "sha256": "baa4ad1c364253b3dd00454a2bd6d19d0fc59a193abccf19c83a0834ad21af41",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/imsd-package.nix",
+    "path": "userspace/modem/imsd/imsd-package.nix",
+    "source_sha256": "f33ad797685efc007756df0e9e4350255c2dd0ed99d7e236895b827d9a5d4b78",
+    "sha256": "f33ad797685efc007756df0e9e4350255c2dd0ed99d7e236895b827d9a5d4b78",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6-boot-dtb/candidate-preserved.pp.dts",
+    "path": "device-tree/preserved/candidate-preserved.pp.dts",
+    "source_sha256": "124f95cdfcb1982eec22498a64c09f70e5544919f7944eacd39977730ebce6c4",
+    "sha256": "124f95cdfcb1982eec22498a64c09f70e5544919f7944eacd39977730ebce6c4",
+    "change": "byte-identical",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/selfie-fp6-boot-dtb.nix",
+    "path": "device-tree/build-preserved.nix",
+    "source_sha256": "f9d1315a89f875c3447447fbb67c44c00d07e3036a5c60c841784c12b75e2a70",
+    "sha256": "24230aa4027fc87d86347c69ec5119ae8e53b9d47543fde05f9e25e69823e7cd",
+    "change": "relative Nix references adjusted",
+    "reason": "Low-level hardware or middleware compatibility source; no desktop activation"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/ofono-0001-nr-5g.patch",
+    "path": "userspace/modem/ofono/ofono-0001-nr-5g.patch",
+    "source_sha256": "32f76900cb951002ae5e5fee8f6f5d073e3b7f068084872ab7f9fc2e1c6789f6",
+    "sha256": "32f76900cb951002ae5e5fee8f6f5d073e3b7f068084872ab7f9fc2e1c6789f6",
+    "change": "byte-identical",
+    "reason": "oFono modem compatibility patch"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/ofono-0002-keep-ps-attach-when-data-off.patch",
+    "path": "userspace/modem/ofono/ofono-0002-keep-ps-attach-when-data-off.patch",
+    "source_sha256": "c484a0e5cb7a4d1d23ac504dcfdaa7c2b1853892bc8eb19df85a8cf2bdc1cb03",
+    "sha256": "c484a0e5cb7a4d1d23ac504dcfdaa7c2b1853892bc8eb19df85a8cf2bdc1cb03",
+    "change": "byte-identical",
+    "reason": "oFono modem compatibility patch"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/ofono-0003-radio-settings-reapply-on-online.patch",
+    "path": "userspace/modem/ofono/ofono-0003-radio-settings-reapply-on-online.patch",
+    "source_sha256": "f9eb01771a3b83a0cd05761547967a465adc50892db08b5c7ae8081277a089ed",
+    "sha256": "f9eb01771a3b83a0cd05761547967a465adc50892db08b5c7ae8081277a089ed",
+    "change": "byte-identical",
+    "reason": "oFono modem compatibility patch"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/ofono-0004-qmimodem-serial-placeholder.patch",
+    "path": "userspace/modem/ofono/ofono-0004-qmimodem-serial-placeholder.patch",
+    "source_sha256": "c0c9dbde66e65e91286f6c9216d20daca82f14072bdb0f8137e1b620da301134",
+    "sha256": "c0c9dbde66e65e91286f6c9216d20daca82f14072bdb0f8137e1b620da301134",
+    "change": "byte-identical",
+    "reason": "oFono modem compatibility patch"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/rmtfs-shadow/0001-rmtfs-persist-read-only-shadow.patch",
+    "path": "userspace/modem/rmtfs-shadow/0001-rmtfs-persist-read-only-shadow.patch",
+    "source_sha256": "bc64c2ed21243897cbbbb2e0190c65a1cdf4bebf5842699570fe9ad892a535ae",
+    "sha256": "bc64c2ed21243897cbbbb2e0190c65a1cdf4bebf5842699570fe9ad892a535ae",
+    "change": "byte-identical",
+    "reason": "Modem persistence shadow implementation and offline tests"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/rmtfs-shadow/fp6-rmtfs-shadow.sh",
+    "path": "userspace/modem/rmtfs-shadow/fp6-rmtfs-shadow.sh",
+    "source_sha256": "a783c55d869c5f28240bc80dde2714887e2902f1394a3cb6e322f300854ba7b4",
+    "sha256": "a783c55d869c5f28240bc80dde2714887e2902f1394a3cb6e322f300854ba7b4",
+    "change": "byte-identical",
+    "reason": "Modem persistence shadow implementation and offline tests"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/rmtfs-shadow/test-fp6-rmtfs-shadow.sh",
+    "path": "userspace/modem/rmtfs-shadow/test-fp6-rmtfs-shadow.sh",
+    "source_sha256": "17d1661a0b347d0d99423b6402ce6a31c1f94f67214aff7e0bb8d3c16c6b7ad1",
+    "sha256": "17d1661a0b347d0d99423b6402ce6a31c1f94f67214aff7e0bb8d3c16c6b7ad1",
+    "change": "byte-identical",
+    "reason": "Modem persistence shadow implementation and offline tests"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/rmtfs-shadow/test_shadow.c",
+    "path": "userspace/modem/rmtfs-shadow/test_shadow.c",
+    "source_sha256": "a826ea69d697dd87c34ceb6749749a45449179724450c2ce79f028253ba54832",
+    "sha256": "a826ea69d697dd87c34ceb6749749a45449179724450c2ce79f028253ba54832",
+    "change": "byte-identical",
+    "reason": "Modem persistence shadow implementation and offline tests"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/topology/acdb2m4.py",
+    "path": "tools/audio/acdb2m4.py",
+    "source_sha256": "792670ba3c2d0a42b49dfb6f940ff2e26dea07f83833bb27dd85adede7876ba7",
+    "sha256": "792670ba3c2d0a42b49dfb6f940ff2e26dea07f83833bb27dd85adede7876ba7",
+    "change": "byte-identical",
+    "reason": "Audio calibration inspection/extraction source only; no vendor libraries or payloads"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/topology/acdb-tools/acdbq.c",
+    "path": "tools/audio/acdb-tools/acdbq.c",
+    "source_sha256": "a90b4ce9bd777848de4df6aefa53bb2b4a31749d8866e89d63c9522f36f693ea",
+    "sha256": "a90b4ce9bd777848de4df6aefa53bb2b4a31749d8866e89d63c9522f36f693ea",
+    "change": "byte-identical",
+    "reason": "Audio calibration inspection/extraction source only; no vendor libraries or payloads"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/topology/acdb-tools/build.sh",
+    "path": "tools/audio/acdb-tools/build.sh",
+    "source_sha256": "067a8644dacbe10a1bc5de8c201b2dabd7657f2fdc018e050f3bec3b92618ebf",
+    "sha256": "067a8644dacbe10a1bc5de8c201b2dabd7657f2fdc018e050f3bec3b92618ebf",
+    "change": "byte-identical",
+    "reason": "Audio calibration inspection/extraction source only; no vendor libraries or payloads"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/topology/acdb-tools/dump-graph.py",
+    "path": "tools/audio/acdb-tools/dump-graph.py",
+    "source_sha256": "4c06f90331aceeb20bc68fb31e7ef034b5fde27cb02f7d18b4c10ee45645f940",
+    "sha256": "4c06f90331aceeb20bc68fb31e7ef034b5fde27cb02f7d18b4c10ee45645f940",
+    "change": "byte-identical",
+    "reason": "Audio calibration inspection/extraction source only; no vendor libraries or payloads"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/topology/acdb-tools/gkvs.c",
+    "path": "tools/audio/acdb-tools/gkvs.c",
+    "source_sha256": "7befaafb4dd545f0ff2e6d4a0c45d1ed8b62d77551eeef7537a75f4104f11322",
+    "sha256": "7befaafb4dd545f0ff2e6d4a0c45d1ed8b62d77551eeef7537a75f4104f11322",
+    "change": "byte-identical",
+    "reason": "Audio calibration inspection/extraction source only; no vendor libraries or payloads"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/topology/acdb-tools/logstub.c",
+    "path": "tools/audio/acdb-tools/logstub.c",
+    "source_sha256": "7c186eca913b7cc0aeaae754f5179dafb65ec2ce4f1381502276530b6c90d5c6",
+    "sha256": "7c186eca913b7cc0aeaae754f5179dafb65ec2ce4f1381502276530b6c90d5c6",
+    "change": "byte-identical",
+    "reason": "Audio calibration inspection/extraction source only; no vendor libraries or payloads"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/camera/gst-fp6camera/tuning/fp6-s5kkd1.yaml",
+    "path": "userspace/camera/tuning/fp6-s5kkd1.yaml",
+    "source_sha256": "43d810c5198789cdb92eab3110ed9292045aeaa7e90f8742d19c36931f27b830",
+    "sha256": "43d810c5198789cdb92eab3110ed9292045aeaa7e90f8742d19c36931f27b830",
+    "change": "byte-identical",
+    "reason": "Sensor tuning data, separated from application camera plugin"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/camera/gst-fp6camera/tuning/ov13b10.yaml",
+    "path": "userspace/camera/tuning/ov13b10.yaml",
+    "source_sha256": "87c03c578bf302bcde4aad4b881dee5ac30e1802f89f5b2603023c0c8f378d2e",
+    "sha256": "87c03c578bf302bcde4aad4b881dee5ac30e1802f89f5b2603023c0c8f378d2e",
+    "change": "byte-identical",
+    "reason": "Sensor tuning data, separated from application camera plugin"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/fp6-csvoiced/Cargo.lock",
+    "path": "userspace/audio/cs-call/fp6-csvoiced/Cargo.lock",
+    "source_sha256": "42a798c8c4660f8c1b8c1e01e0b6f33a49ae8d89c715d374d2f943e337f2773b",
+    "sha256": "42a798c8c4660f8c1b8c1e01e0b6f33a49ae8d89c715d374d2f943e337f2773b",
+    "change": "byte-identical",
+    "reason": "Standalone experimental call-audio hardware helper"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/fp6-csvoiced/Cargo.toml",
+    "path": "userspace/audio/cs-call/fp6-csvoiced/Cargo.toml",
+    "source_sha256": "147f41b9f49e7e73a21ade5a23b889565d0912b3d3fdadb8d90df92df5508f81",
+    "sha256": "147f41b9f49e7e73a21ade5a23b889565d0912b3d3fdadb8d90df92df5508f81",
+    "change": "byte-identical",
+    "reason": "Standalone experimental call-audio hardware helper"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/fp6-csvoiced/src/alsadev.rs",
+    "path": "userspace/audio/cs-call/fp6-csvoiced/src/alsadev.rs",
+    "source_sha256": "0410d34590780895f2ce265e6555040151e42b0e1600b2959cf9e9b00787b8c5",
+    "sha256": "0410d34590780895f2ce265e6555040151e42b0e1600b2959cf9e9b00787b8c5",
+    "change": "byte-identical",
+    "reason": "Standalone experimental call-audio hardware helper"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/fp6-csvoiced/src/config.rs",
+    "path": "userspace/audio/cs-call/fp6-csvoiced/src/config.rs",
+    "source_sha256": "fb39c5f20f0deeb9d08b048102c65e223b2daaacfc04298dd18cdb53170139fa",
+    "sha256": "fb39c5f20f0deeb9d08b048102c65e223b2daaacfc04298dd18cdb53170139fa",
+    "change": "byte-identical",
+    "reason": "Standalone experimental call-audio hardware helper"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/fp6-csvoiced/src/main.rs",
+    "path": "userspace/audio/cs-call/fp6-csvoiced/src/main.rs",
+    "source_sha256": "4cdd09a81ebff455a47da25946c737b116f9577f94e097556c75ea9c7d4101aa",
+    "sha256": "4cdd09a81ebff455a47da25946c737b116f9577f94e097556c75ea9c7d4101aa",
+    "change": "byte-identical",
+    "reason": "Standalone experimental call-audio hardware helper"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/fp6-csvoiced/src/ofono.rs",
+    "path": "userspace/audio/cs-call/fp6-csvoiced/src/ofono.rs",
+    "source_sha256": "d0377bd2012a48aa2d8eca788156e19c35cd041accc3588d3c4c0f5efe9de761",
+    "sha256": "d0377bd2012a48aa2d8eca788156e19c35cd041accc3588d3c4c0f5efe9de761",
+    "change": "byte-identical",
+    "reason": "Standalone experimental call-audio hardware helper"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/fp6-csvoiced/src/state.rs",
+    "path": "userspace/audio/cs-call/fp6-csvoiced/src/state.rs",
+    "source_sha256": "bf09a02f688ffc461a85167814fbff8e85a27da1bde1f4ab243b029e6c189b58",
+    "sha256": "bf09a02f688ffc461a85167814fbff8e85a27da1bde1f4ab243b029e6c189b58",
+    "change": "byte-identical",
+    "reason": "Standalone experimental call-audio hardware helper"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cs-call-audio/package.nix",
+    "path": "userspace/audio/cs-call/package.nix",
+    "source_sha256": "d8a5076fff66be7310fda6321e6abe1270544b7320a9bc8a0c9b5b272a490636",
+    "sha256": "d8a5076fff66be7310fda6321e6abe1270544b7320a9bc8a0c9b5b272a490636",
+    "change": "byte-identical",
+    "reason": "Standalone hardware userspace support without desktop/service activation"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/fp6-loc-nmea.py",
+    "path": "userspace/location/fp6-loc-nmea.py",
+    "source_sha256": "baf904735b338e27ead1d2fd61c0e6ea0be4c5d11b35ffd43f3b5101e72df91f",
+    "sha256": "baf904735b338e27ead1d2fd61c0e6ea0be4c5d11b35ffd43f3b5101e72df91f",
+    "change": "byte-identical",
+    "reason": "Standalone hardware userspace support without desktop/service activation"
+  },
+  {
+    "source_path": "nixos-fp6/feature-push/cellular/agps/fp6-agps.py",
+    "path": "userspace/location/fp6-agps.py",
+    "source_sha256": "31621983d4cb7add9bd21b585833bcd0e334ec91b6d9a248811ebf05b8fd0f8d",
+    "sha256": "31621983d4cb7add9bd21b585833bcd0e334ec91b6d9a248811ebf05b8fd0f8d",
+    "change": "byte-identical",
+    "reason": "Standalone hardware userspace support without desktop/service activation"
+  },
+  {
+    "source_path": "nixos-fp6/assets/kernel.config",
+    "path": "kernel/base.config",
+    "source_sha256": "ac3130009fe160c7a0235350b08a2b8f554a9285aee1d667f0c6434df6c6ee4c",
+    "sha256": "ac3130009fe160c7a0235350b08a2b8f554a9285aee1d667f0c6434df6c6ee4c",
+    "change": "byte-identical baseline copied from pinned source HEAD",
+    "reason": "Required by kernel config preparation/verification; source history remains linked upstream"
+  }
+]
