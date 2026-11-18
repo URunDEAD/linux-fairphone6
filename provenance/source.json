@@ -1,10 +1,11 @@
 {
-  "url": "https://github.com/URunDEAD/fairphone6-nixos",
+  "url": "https://github.com/URunDEAD/nixos-fairphone6",
   "revision": "74aa719abaa7e0bacb36038627bf548d98e7523d",
   "date": "2026-11-01",
   "selected_files": 163,
   "history": "Exact allowlisted source paths filtered from main; subsequent organization commit moves files and updates relative Nix references. No source tags/other refs published. Required baseline kernel.config copied byte-identically at the pinned revision in the organization commit.",
-  "source_history_url": "https://github.com/URunDEAD/fairphone6-nixos/commits/main/",
+  "source_history_url": "https://github.com/URunDEAD/nixos-fairphone6/commits/lomiri-final/",
   "filter_tool": "git-filter-repo",
-  "excluded_scope": "Desktop/app code, OS/session/service activation, complete images, vendor binary assets, private/local operational material"
+  "excluded_scope": "Desktop/app code, OS/session/service activation, complete images, vendor binary assets, private/local operational material",
+  "note": "Source repository was renamed from fairphone6-nixos to nixos-fairphone6 on 2026-11-18; the extracted revision is reachable from tag lomiri-final there and from main of lomiri-fairphone6."
 }

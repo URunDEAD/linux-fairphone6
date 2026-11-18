@@ -1,10 +1,10 @@
-# Fairphone 6 hardware support
+# linux-fairphone6: Fairphone 6 hardware support
 
-Reusable **Linux** hardware-enablement work for Fairphone (Gen. 6), Qualcomm SM7635/Milos. Extracted from [fairphone6-nixos](https://github.com/URunDEAD/fairphone6-nixos) at `74aa719abaa7e0bacb36038627bf548d98e7523d`.
+Reusable **Linux** hardware-enablement work for Fairphone (Gen. 6), Qualcomm SM7635/Milos. Extracted from the original all-in-one port (then `fairphone6-nixos`, now [nixos-fairphone6](https://github.com/URunDEAD/nixos-fairphone6), tag [`lomiri-final`](https://github.com/URunDEAD/nixos-fairphone6/tree/lomiri-final)) at `74aa719abaa7e0bacb36038627bf548d98e7523d`.
 
 This is a component source collection, **not an OS image or a ready-to-install hardware module**. It has no Lomiri/Mir desktop, applications, session integration, complete NixOS configuration or deployment scripts. It is independent of Velrune. Linux drivers and ALSA/libcamera support can be reused across Linux distributions; other kernels need their own ports.
 
-The GitLab project is private initially, with content curated for potential public release. No firmware binaries, calibration dumps, boot images, credentials or private logs are included. Do not add those later without checking redistribution rights and privacy.
+Content is curated for public release. No firmware binaries, calibration dumps, boot images, credentials or private logs are included. Do not add those later without checking redistribution rights and privacy.
 
 ## Layout
 
@@ -21,13 +21,20 @@ The GitLab project is private initially, with content curated for potential publ
 
 Read [reuse and dependencies](docs/REUSE.md), [status](docs/STATUS.md), [licensing](docs/LICENSING.md) and [extraction scope](docs/EXTRACTION.md) before consuming components.
 
-## NixOS integration
+## Related repositories
 
-Desktop-neutral NixOS/Mobile NixOS packaging, device modules and reference configurations live in the sibling [nixos repository](https://gitlab.com/urundead-labs/linux-handsets/nixos). That repository pins this hardware source; it does not select a desktop or app suite. Hardware patches remain here. Existing Nix recipes here remain reference/provenance material while maintained OS-facing packaging and activation belong there.
+| Repository | Role |
+|---|---|
+| **linux-fairphone6** (this) | Linux hardware enablement: kernel, drivers, device tree, ALSA/libcamera, modem helpers |
+| [nixos-fairphone6](https://github.com/URunDEAD/nixos-fairphone6) | Desktop-neutral NixOS / Mobile NixOS packaging, device modules and reference image; pins this repository |
+| [lomiri-fairphone6](https://github.com/URunDEAD/lomiri-fairphone6) | Lomiri/Mir shell, Phosh and Ubuntu Touch apps on the NixOS port (the original full stack) |
+| Velrune OS (private) | One consumer of the NixOS layer |
+
+Desktop-neutral NixOS packaging, device modules and reference configurations live in [nixos-fairphone6](https://github.com/URunDEAD/nixos-fairphone6). It pins this hardware source and does not select a desktop or app suite. Hardware patches remain here. Existing Nix recipes here remain reference/provenance material while maintained OS-facing packaging and activation belong there.
 
 ## Multi-phone organization
 
-`urundead-labs/linux-handsets` holds one repository per phone. This project is `fairphone6`. Keep compatible board patches, configs and userspace support together. When another phone actually shares code, extract that component to an appropriately named shared repository and pin it from each phone project; do not duplicate moving copies or pre-create empty repositories.
+One hardware repository per phone, named `linux-<phone>`. This project is `linux-fairphone6`. Keep compatible board patches, configs and userspace support together. When another phone actually shares code, extract that component to an appropriately named shared repository and pin it from each phone project; do not duplicate moving copies or pre-create empty repositories.
 
 Build-only Nix recipes accompany hardware components as optional tooling. Consumers supply their own OS packaging, boot assembly, service activation, security policy and desktop. No imports of the original complete system are required or supplied here.
 
