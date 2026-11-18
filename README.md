@@ -29,6 +29,7 @@ Read [reuse and dependencies](docs/REUSE.md), [status](docs/STATUS.md), [licensi
 | [nixos-fairphone6](https://github.com/URunDEAD/nixos-fairphone6) | Desktop-neutral NixOS / Mobile NixOS packaging, device modules and reference image; pins this repository |
 | [lomiri-fairphone6](https://github.com/URunDEAD/lomiri-fairphone6) | Lomiri/Mir shell, Phosh and Ubuntu Touch apps on the NixOS port (the original full stack) |
 | Velrune OS (private) | One consumer of the NixOS layer |
+| [redox-fairphone6](https://github.com/URunDEAD/redox-fairphone6) | Redox OS bring-up on the same phone (experimental) |
 
 Desktop-neutral NixOS packaging, device modules and reference configurations live in [nixos-fairphone6](https://github.com/URunDEAD/nixos-fairphone6). It pins this hardware source and does not select a desktop or app suite. Hardware patches remain here. Existing Nix recipes here remain reference/provenance material while maintained OS-facing packaging and activation belong there.
 
