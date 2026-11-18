@@ -1,6 +1,6 @@
 # Extraction scope and provenance
 
-Source: `URunDEAD/fairphone6-nixos` (renamed `URunDEAD/nixos-fairphone6`; tag `lomiri-final`) main at `74aa719abaa7e0bacb36038627bf548d98e7523d` (2026-11-01 extraction). The original repository is untouched.
+Source: `URunDEAD/fairphone6-nixos` (renamed `URunDEAD/nixos-fairphone6`; tag `lomiri-final`) main at `45d07cde3611922a8302a387f4cf392c1340725f` (2026-11-01 extraction). The original repository is untouched.
 
 An exact file allowlist selected 162 paths before filtering history with git-filter-repo. One additional required baseline kernel config was copied byte-identically from the same pinned revision. Relevant commits retain original authorship and messages; rewritten commit IDs are mapped in `provenance/commit-map.txt`. Only the resulting main branch is published. The organization commit relocates components and adjusts relative recipe/config references; raw patches and driver logic are unchanged.
 

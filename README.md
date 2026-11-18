@@ -1,6 +1,6 @@
 # linux-fairphone6: Fairphone 6 hardware support
 
-Reusable **Linux** hardware-enablement work for Fairphone (Gen. 6), Qualcomm SM7635/Milos. Extracted from the original all-in-one port (then `fairphone6-nixos`, now [nixos-fairphone6](https://github.com/URunDEAD/nixos-fairphone6), tag [`lomiri-final`](https://github.com/URunDEAD/nixos-fairphone6/tree/lomiri-final)) at `74aa719abaa7e0bacb36038627bf548d98e7523d`.
+Reusable **Linux** hardware-enablement work for Fairphone (Gen. 6), Qualcomm SM7635/Milos. Extracted from the original all-in-one port (then `fairphone6-nixos`, now [nixos-fairphone6](https://github.com/URunDEAD/nixos-fairphone6), tag [`lomiri-final`](https://github.com/URunDEAD/nixos-fairphone6/tree/lomiri-final)) at `45d07cde3611922a8302a387f4cf392c1340725f`.
 
 This is a component source collection, **not an OS image or a ready-to-install hardware module**. It has no Lomiri/Mir desktop, applications, session integration, complete NixOS configuration or deployment scripts. It is independent of Velrune. Linux drivers and ALSA/libcamera support can be reused across Linux distributions; other kernels need their own ports.
 
